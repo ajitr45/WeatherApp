@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,58 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <h1>Weather App</h1>
+        <h1>Weather App</h1>
 
-    <div class="search-box">
-        <input type="text" id="city" placeholder="Enter city name">
-        <button id="searchBtn">Search</button>
-    </div>
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
 
-    <div class="weather-card hidden" >
+        <div class="weather-card hidden">
 
-        <img id="weatherIcon" src="" alt="Weather Icon">
+            <img id="weatherIcon" src="" alt="Weather Icon">
 
-        <h2 id="temp">--°C</h2>
+            <h2 id="temp">--°C</h2>
 
-        <h3 id="cityName">City</h3>
+            <h3 id="cityName">City</h3>
 
-        <p id="condition">Condition</p>
+            <p id="condition">Condition</p>
 
-        <div class="details">
+            <div class="details">
 
-            <div class="box">
-                <i class="fa-solid fa-droplet"></i>
-                <h4 id="humidity">0%</h4>
-                <p>Humidity</p>
-            </div>
+                <div class="box">
+                    <i class="fa-solid fa-droplet"></i>
+                    <h4 id="humidity">0%</h4>
+                    <p>Humidity</p>
+                </div>
 
-            <div class="box">
-                <i class="fa-solid fa-wind"></i>
-                <h4 id="wind">0 km/h</h4>
-                <p>Wind</p>
-            </div>
+                <div class="box">
+                    <i class="fa-solid fa-wind"></i>
+                    <h4 id="wind">0 km/h</h4>
+                    <p>Wind</p>
+                </div>
 
-            <div class="box">
-                <i class="fa-solid fa-cloud"></i>
-                <h4 id="cloud">0%</h4>
-                <p>Cloud</p>
+                <div class="box">
+                    <i class="fa-solid fa-cloud"></i>
+                    <h4 id="cloud">0%</h4>
+                    <p>Cloud</p>
+                </div>
+
             </div>
 
         </div>
 
     </div>
 
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
